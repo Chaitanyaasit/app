@@ -1,0 +1,34 @@
+.wrapper{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.Header{
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+
+    .headerContainer{
+        display: flex;
+    width: 100%;
+    flex-direction: column;
+
+        
+            .round-button {
+                padding: 10px 20px;
+                border: none;
+                background-color: teal;
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+                border-radius: 20px;
+              }
+            }         
+        
+    
+}
+
+
